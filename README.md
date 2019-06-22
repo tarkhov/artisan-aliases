@@ -1,4 +1,4 @@
-# artisan-aliases
+# Artisan aliases
 
 Laravel artisan command aliases.
 
@@ -17,7 +17,7 @@ Laravel artisan command aliases.
 Name | Version
 ------- | -------
 Ubuntu | >= 16.04
-Laravel | >= 5
+Laravel | >= 5.5
 
 ## Installation
 
