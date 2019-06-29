@@ -9,8 +9,9 @@ Laravel artisan command aliases.
    1. [Ubuntu](#ubuntu)
 3. [Usage](#usage)
    1. [Commands](#commands)
-4. [Author](#author)
-5. [License](#license)
+4. [Removing](#removing)
+5. [Author](#author)
+6. [License](#license)
 
 ## Compatibility
 
@@ -68,6 +69,14 @@ Alias | Command
 `ar:l` | `php artisan route:list`
 `av:p` | `php artisan vendor:publish`
 `avw:cl` | `php artisan view:clear`
+
+## Removing
+
+To completely remove the package run the command:
+
+```bash
+sudo apt remove --purge artisan-aliases
+```
 
 ## Author
 
