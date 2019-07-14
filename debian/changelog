@@ -1,3 +1,9 @@
+artisan-aliases (0.1.6-1) bionic; urgency=medium
+
+  * Six release
+
+ -- Alexander Tarkhov <agtuks@gmail.com>  Sat, 13 Jul 2019 22:11:38 +0300
+
 artisan-aliases (0.1.0-1) bionic; urgency=medium
 
   * Initial release
