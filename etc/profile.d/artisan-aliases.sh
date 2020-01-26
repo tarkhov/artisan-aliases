@@ -85,9 +85,9 @@ alias ap:d="php artisan package:discover"
 
 # queue
 alias aq="php artisan queue"
-alias aq:fl="php artisan queue:failed"
+alias aq:f="php artisan queue:failed"
 alias aq:ft="php artisan queue:failed-table"
-alias aq:fs="php artisan queue:flush"
+alias aq:fl="php artisan queue:flush"
 alias aq:fg="php artisan queue:forget"
 alias aq:l="php artisan queue:listen"
 alias aq:rs="php artisan queue:restart"
