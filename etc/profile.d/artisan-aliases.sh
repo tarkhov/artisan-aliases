@@ -10,26 +10,41 @@ alias ac:c="php artisan cache:clear"
 alias ac:f="php artisan cache:forget"
 alias ac:t="php artisan cache:table"
 
+# clear
+alias aclc="php artisan clear-compiled"
+
 # config
 alias acf="php artisan config"
-alias acf:ca="php artisan config:cache"
-alias acf:c="php artisan config:clear"
+alias acf:c="php artisan config:cache"
+alias acf:cl="php artisan config:clear"
 
 # db
-alias ad="php artisan db"
-alias ad:s="php artisan db:seed"
-alias ad:w="php artisan db:wipe" 
+alias adb="php artisan db"
+alias adb:s="php artisan db:seed"
+alias adb:w="php artisan db:wipe" 
 
 # debugbar
 alias adbg="php artisan debugbar"
 alias adbg:c="php artisan debugbar:clear"
 
+# down
+alias ad="php artisan down"
+
 # event
 alias ae="php artisan event"
-alias ae:ca="php artisan event:cache"
-alias ae:c="php artisan event:clear"
+alias ae:c="php artisan event:cache"
+alias ae:cl="php artisan event:clear"
 alias ae:g="php artisan event:generate"
 alias ae:l="php artisan event:list"
+
+# env
+alias aen="php artisan env"
+
+# help
+alias ah="php artisan help"
+
+# inspire
+alias ai="php artisan inspire"
 
 # jwt
 alias aj="php artisan jwt"
@@ -38,6 +53,9 @@ alias aj:s="php artisan jwt:secret"
 # key
 alias ak="php artisan key"
 alias ak:g="php artisan key:generate"
+
+# list
+alias al="php artisan list"
 
 # make
 alias amk="php artisan make"
@@ -79,9 +97,16 @@ alias amg:s="php artisan migrate:status"
 alias an="php artisan notification:table"
 alias an:t="php artisan notification:table"
 
+# optimize
+alias ao="php artisan optimize"
+alias ao:c="php artisan optimize:clear"
+
 # package
 alias ap="php artisan package"
 alias ap:d="php artisan package:discover"
+
+# preset
+alias apr="php artisan preset"
 
 # queue
 alias aq="php artisan queue"
@@ -97,13 +122,16 @@ alias aq:w="php artisan queue:work"
 
 # route
 alias ar="php artisan route"
-alias ar:ca="php artisan route:cache"
-alias ar:c="php artisan route:clear"
+alias ar:c="php artisan route:cache"
+alias ar:cl="php artisan route:clear"
 alias ar:l="php artisan route:list"
 
 # schedule
 alias asc="php artisan schedule"
 alias asc:r="php artisan schedule:run"
+
+# serve
+alias as="php artisan serve"
 
 # session
 alias ase="php artisan session"
@@ -120,9 +148,15 @@ alias ats:i="php artisan telescope:install"
 alias ats:pr="php artisan telescope:prune"
 alias ats:p="php artisan telescope:publish"
 
+# tinker
+alias at="php artisan tinker"
+
 # ui
-alias au="php artisan ui"
-alias au:a="php artisan ui:auth"
+alias aui="php artisan ui"
+alias aui:a="php artisan ui:auth"
+
+# up
+alias au="php artisan up"
 
 # vendor
 alias avn="php artisan vendor"
@@ -130,5 +164,5 @@ alias avn:p="php artisan vendor:publish"
 
 # view
 alias av="php artisan view"
-alias av:ca="php artisan view:cache"
-alias av:c="php artisan view:clear"
+alias av:c="php artisan view:cache"
+alias av:cl="php artisan view:clear"
