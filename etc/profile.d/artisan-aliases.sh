@@ -102,11 +102,11 @@ alias ao="php artisan optimize"
 alias ao:c="php artisan optimize:clear"
 
 # package
-alias ap="php artisan package"
-alias ap:d="php artisan package:discover"
+alias apk="php artisan package"
+alias apk:d="php artisan package:discover"
 
 # preset
-alias apr="php artisan preset"
+alias ap="php artisan preset"
 
 # queue
 alias aq="php artisan queue"
