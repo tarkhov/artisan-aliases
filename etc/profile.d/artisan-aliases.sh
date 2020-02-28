@@ -6,9 +6,9 @@ alias aa:cr="php artisan auth:clear-resets"
 
 # cache
 alias ac="php artisan cache"
-alias ac:c="php artisan cache:clear"
-alias ac:f="php artisan cache:forget"
-alias ac:t="php artisan cache:table"
+alias ac:cl="php artisan cache:clear"
+alias ac:fg="php artisan cache:forget"
+alias ac:tb="php artisan cache:table"
 
 # clear
 alias aclc="php artisan clear-compiled"
@@ -25,20 +25,20 @@ alias adb:w="php artisan db:wipe"
 
 # debugbar
 alias adbg="php artisan debugbar"
-alias adbg:c="php artisan debugbar:clear"
+alias adbg:cl="php artisan debugbar:clear"
 
 # down
 alias ad="php artisan down"
 
 # event
-alias ae="php artisan event"
-alias ae:c="php artisan event:cache"
-alias ae:cl="php artisan event:clear"
-alias ae:g="php artisan event:generate"
-alias ae:l="php artisan event:list"
+alias aev="php artisan event"
+alias aev:c="php artisan event:cache"
+alias aev:cl="php artisan event:clear"
+alias aev:g="php artisan event:generate"
+alias aev:l="php artisan event:list"
 
 # env
-alias aen="php artisan env"
+alias ae="php artisan env"
 
 # help
 alias ah="php artisan help"
@@ -95,11 +95,11 @@ alias amg:s="php artisan migrate:status"
 
 # notification
 alias an="php artisan notification:table"
-alias an:t="php artisan notification:table"
+alias an:tb="php artisan notification:table"
 
 # optimize
 alias ao="php artisan optimize"
-alias ao:c="php artisan optimize:clear"
+alias ao:cl="php artisan optimize:clear"
 
 # package
 alias apk="php artisan package"
@@ -117,7 +117,7 @@ alias aq:fg="php artisan queue:forget"
 alias aq:l="php artisan queue:listen"
 alias aq:rs="php artisan queue:restart"
 alias aq:rt="php artisan queue:retry"
-alias aq:t="php artisan queue:table"
+alias aq:tb="php artisan queue:table"
 alias aq:w="php artisan queue:work"
 
 # route
@@ -135,7 +135,7 @@ alias as="php artisan serve"
 
 # session
 alias ase="php artisan session"
-alias ase:t="php artisan session:table"
+alias ase:tb="php artisan session:table"
 
 # storage
 alias ast="php artisan storage"
@@ -143,7 +143,7 @@ alias ast:l="php artisan storage:link"
 
 # telescope
 alias ats="php artisan telescope"
-alias ats:c="php artisan telescope:clear"
+alias ats:cl="php artisan telescope:clear"
 alias ats:i="php artisan telescope:install"
 alias ats:pr="php artisan telescope:prune"
 alias ats:p="php artisan telescope:publish"
