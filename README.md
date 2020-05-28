@@ -32,6 +32,8 @@ sudo apt update
 sudo apt install artisan-aliases
 ```
 
+You need to **restart the computer** after installation so that the aliases work correctly.
+
 ## Usage
 
 ### Commands
